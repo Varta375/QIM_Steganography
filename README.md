@@ -4,6 +4,8 @@
 
 A program for hiding information in an image. The method consists of changing the pixel values of the image depending on the values of the embedded bits of the message. This implementation is a spatial version (i.e. embedding occurs in pixels), so any distortion (changing brightness/sharpness/contrast, etc.) is almost guaranteed to destroy the embedded information, but this depends on the image used and the quantization step (q). The quantization step in our case is responsible for the robustness of the image and the visibility of the message: the more you try to make it, the more likely it is that the message will survive a minor attack, but it will increase the visibility of the image artifacts.
 
+The quantization step in our case is responsible for the robustness of the image and the visibility of the message: the more you try to make it, the more likely it is that the message will survive a minor attack, but at the same time the visibility of the image artifacts will increase.
+
 ## Honorable Mention
 
 The program automatically converts other image formats to PNG because it is not a lossy format, and the encoded information will not be destroyed immediately after the program is terminated.
