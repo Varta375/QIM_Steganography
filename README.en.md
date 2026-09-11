@@ -1,4 +1,4 @@
-[English](README.en.md) | [Russian](README.ru.md)
+[English](README.md) | [Russian](README.ru.md)
 
 # Quantization Index Modulation (QIM) steganography method
 
